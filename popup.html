@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Focus Mode</title>
+  <style>
+    body {
+      font-family: Arial;
+      width: 220px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .status {
+      padding: 10px;
+      background: #222;
+      color: white;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+
+    #infoBox {
+      display: none;
+      margin-top: 10px;
+      font-size: 12px;
+      background: #f2f2f2;
+      padding: 8px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3>🎯 Focus Mode</h3>
+
+  <div class="status" id="status">Durum: OFF</div>
+
+  <button id="toggle">Aktifleştir</button>
+  <button id="infoBtn">Nasıl çalışır?</button>
+
+  <div id="infoBox">
+    ✔ Shorts gizlenir<br>
+    ✔ Yorumlar kaldırılır<br>
+    ✔ Öneriler silinir<br>
+    ✔ Not paneli açılır
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

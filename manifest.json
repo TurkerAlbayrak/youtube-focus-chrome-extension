@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Focus Mode",
+  "version": "1.0",
+  "description": "YouTube'u dikkat dağıtmadan kullan",
+
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Focus Mode"
+  }
+}
