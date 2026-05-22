@@ -16,21 +16,21 @@ Shorts videoları, sonsuz yorum satırları ve algoritma tabanlı video önerile
 
 ---
 
-## 🚀 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
-- **🚫 Dikkat Dağıtıcı Unsurları Engelleme:**
+- **Dikkat Dağıtıcı Unsurları Engelleme:**
   - YouTube Shorts videolarını tamamen gizler.
   - Video altındaki yorum alanlarını kaldırarak odaklanmanızı kolaylaştırır.
   - Yan paneldeki veya video sonundaki önerilen videolar algoritmasını deaktif eder.
 
-- **📝 Entegre Zaman Damgalı Not Defteri:**
+- **Entegre Zaman Damgalı Not Defteri:**
   - Videoyu izlerken popup arayüzündeki dahili not defterini kullanabilirsiniz.
   - **Zaman Damgası Desteği:** Alınan notun yanına videonun o anki oynatma süresini (`02:45` gibi) otomatik veya manuel ekleyerek nokta atışı referanslar oluşturur.
   - **Notları Dışa Aktarma:** Aldığınız tüm notları tek bir tıklama ile yapılandırılmış bir `.txt` dosyası olarak bilgisayarınıza indirebilirsiniz.
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 Proje, gereksiz karmaşıklıktan uzak, performans odaklı ve Chrome Extension Manifest V3 standartlarına tam uyumlu bir mimariye sahiptir:
 
@@ -43,7 +43,7 @@ youtube-focus-chrome-extension/
 ├── popup.js          # Not defteri, zaman damgası ve dışa aktarma mantığını yöneten script
 └── style.css         # Popup arayüzünün modern ve temiz tasarım stilleri
 ```
-🛠️ Kurulum Talimatları (Yerel Geliştirme)
+Kurulum Talimatları (Yerel Geliştirme)
 Uzantıyı bilgisayarınızda yerel olarak çalıştırıp test etmek için aşağıdaki adımları sırasıyla takip edin:
 
 Projeyi Bilgisayarınıza İndirin:
@@ -69,7 +69,7 @@ Sol üst köşede beliren "Paketlenmemiş uzantı yükle" (Load unpacked) butonu
 Uzantıyı Sabitleyin:
 Chrome sağ üst menüsündeki yapboz (Uzantılar) simgesine tıklayarak YouTube Focus uzantısını hızlı erişim için tarayıcı barınıza sabitleyebilirsiniz.
 
-💡 Nasıl Kullanılır?
+Nasıl Kullanılır?
 Odaklanmış Mod: Uzantı yüklendikten sonra herhangi bir YouTube videosunu açtığınızda Shorts, yorumlar ve önerilen videolar otomatik olarak filtrelenecek ve gizlenecektir.
 
 Not Alma: 
@@ -81,7 +81,7 @@ O anki video süresini kaydetmek için ilgili butonu kullanın; böylece daha so
 Kaydetme/Dışa Aktarma: 
 Çalışmanız bittiğinde "Notları İndir" butonuna basarak aldığınız tüm notları temiz bir metin belgesi (.txt) olarak indirebilirsiniz.
 
-🤝 Katkıda Bulunma
+Katkıda Bulunma
 Projeyi daha iyi hale getirmek için her türlü katkıya açığım! Geliştirme önerileri, hata bildirimleri veya yeni özellik fikirleri için:
 
 Bu depoyu çatallayın (Fork).
